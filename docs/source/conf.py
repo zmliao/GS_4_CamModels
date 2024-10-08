@@ -3,7 +3,7 @@
 # -- Project information
 import sys
 sys.path.insert(0, '/Users/liaozimu/GS_4_CamModels')
-project = 'Lumache'
+project = 'GS4VariousCamModels'
 copyright = '2021, Graziella'
 author = 'Graziella'
 
