@@ -1,7 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-
+import sys
+sys.path.insert(0, '/Users/liaozimu/GS_4_CamModels')
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
@@ -17,7 +18,14 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark'
 ]
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".txt": "markdown",
+    ".md": "markdown",
+}
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
