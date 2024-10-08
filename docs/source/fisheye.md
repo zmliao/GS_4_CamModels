@@ -2,7 +2,7 @@
 
 ## Overview
 ![](assets/teaser.png)
-Fisheye-GS is 3D Gaussian Splatting module for . Fisheye-GS both supports efficient rendering and training.
+Fisheye-GS is 3D Gaussian Splatting module for equidistant fisheye camera models. Fisheye-GS both supports efficient rendering and training.
 [arxiv](https://arxiv.org/abs/2409.04751)
 [code](https://github.com/zmliao/Fisheye-GS)
 ## Installation
