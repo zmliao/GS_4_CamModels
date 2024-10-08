@@ -92,8 +92,9 @@ Please follow the LICENSE of <a href='https://github.com/graphdeco-inria/gaussia
 ## Acknowledgement
 We thank all authors from <a href='https://github.com/graphdeco-inria/gaussian-splatting'>3D-GS</a> for presenting such an excellent work.
 
+## Detailed Documentation
 ```{toctree}
-:maxdepth 1
+:maxdepth: 1
 
 fisheye_api
 fisheye_derivation

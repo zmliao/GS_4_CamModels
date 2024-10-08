@@ -1,3 +1,3 @@
-# Fisheye_api
+# Fisheye-GS API
 
 to be completed

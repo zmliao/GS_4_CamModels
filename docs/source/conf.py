@@ -3,7 +3,7 @@
 # -- Project information
 import sys
 sys.path.insert(0, '/Users/liaozimu/GS_4_CamModels')
-project = 'GS4VariousCamModels'
+project = 'GS'
 copyright = '2021, Graziella'
 author = 'Graziella'
 
@@ -18,7 +18,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'recommonmark'
+    'myst_parser'
 ]
 
 source_suffix = {
