@@ -66,22 +66,24 @@ sh scripts/eval.sh
 
 Mip-NeRF 360 Dataset - bicycle scene:
 
-![vs](C:\Users\13040\Desktop\vs.png)
+![](assets/panorama_pinhole.png)
 
 ## Formula derivation
 
-There are two main differences in code between the pinhole camera model and the panorama camera model: the calculation of Jacobi matrix in `computeCov2D` kernel and the coordinate transformation in the `preprocessCUDA` kernel.
+There are two main differences in code between the pinhole camera model and the panorama camera model: the calculation of Jacobi matrix in `computeCov2D` kernel and the coordinate transformation in the `preprocessCUDA` kernel.$x$
 
 ### Jacobi matrix:
 
-$$
-\left[\begin{matrix}\frac{W z}{2 \pi \left(x^{2} + z^{2}\right)} & 0 & - \frac{W x}{2 \pi \left(x^{2} + z^{2}\right)}\\- \frac{H x y}{\pi \sqrt{x^{2} + z^{2}} \left(x^{2} + y^{2} + z^{2}\right)} & \frac{H \sqrt{x^{2} + z^{2}}}{\pi \left(x^{2} + y^{2} + z^{2}\right)} & - \frac{H y z}{\pi \sqrt{x^{2} + z^{2}} \left(x^{2} + y^{2} + z^{2}\right)}\\0 & 0 & 0\end{matrix}\right]
-$$
+![](assets/jacobi.png)
 
 ### Coordinate Transformation:
 
+   
 $$
-X= \frac{W \left(\operatorname{atan}_{2}{\left(x,z \right)} + \pi\right)}{2 \pi} \\
-Y= \frac{H \operatorname{atan}_{2}{\left(y,\sqrt{x^{2} + z^{2}} \right)}}{\pi} + \frac{H}{2}
+X= \frac{W \left(\text{atan}_{2}{\left(x,z \right)} + \pi\right)}{2 \pi}
+$$
+
+$$
+Y= \frac{H \text{atan}_{2}{\left(y,\sqrt{x^{2} + z^{2}} \right)}}{\pi} + \frac{H}{2}
 $$
 
