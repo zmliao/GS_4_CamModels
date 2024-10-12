@@ -70,7 +70,7 @@ Mip-NeRF 360 Dataset - bicycle scene:
 
 ## Formula derivation
 
-There are two main differences in code between the pinhole camera model and the panorama camera model: the calculation of Jacobi matrix in `computeCov2D` kernel and the coordinate transformation in the `preprocessCUDA` kernel.$x$
+There are two main differences in code between the pinhole camera model and the panorama camera model: the calculation of Jacobi matrix in `computeCov2D` kernel and the coordinate transformation in the `preprocessCUDA` kernel.
 
 ### Jacobi matrix:
 
