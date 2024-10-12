@@ -12,6 +12,6 @@ Contents
    :maxdepth: 1
 
    fisheye
-   panorama-op43dGS
+   panorama-op43dgs
    oth
 
