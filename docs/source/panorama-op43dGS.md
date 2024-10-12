@@ -78,12 +78,7 @@ There are two main differences in code between the pinhole camera model and the 
 
 ### Coordinate Transformation:
 
-   
-$$
-X= \frac{W \left(\text{atan}_{2}{\left(x,z \right)} + \pi\right)}{2 \pi}
-$$
+![](assets/xy.png)   
 
-$$
-Y= \frac{H \text{atan}_{2}{\left(y,\sqrt{x^{2} + z^{2}} \right)}}{\pi} + \frac{H}{2}
-$$
+<img src="assets/xy.png" width="50%">
 
