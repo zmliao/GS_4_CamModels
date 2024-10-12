@@ -79,4 +79,3 @@ There are two main differences in code between the pinhole camera model and the 
 ### Coordinate Transformation:
 
 ![](assets/xy.png)
-![](assets/jacobi.png)
