@@ -13,4 +13,5 @@ Contents
 
    fisheye
    panorama-op43dGS
+   oth
 
