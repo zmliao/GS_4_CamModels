@@ -1,15 +1,16 @@
 # Fisheye-GS API
 
-# Train
+todo
+## Train
 
-## Synopsis
+### Synopsis
 ```shell
 python train.py [-h | --help] [--ip] IP [--port] [--bs] [--debug_]
 ```
-## Description
+### Description
 
-## Options
+### Options
 
-# Render
+## Render
 
-# metrics
+## metrics
