@@ -1,4 +1,4 @@
-# panorama-op43dgs
+# Panorama-op43dgs
 
 ## Overview
 
